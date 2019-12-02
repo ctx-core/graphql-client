@@ -1,0 +1,15 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"outDir": ".",
+		"declarationDir": ".",
+		"types": [
+			"node"
+		]
+	},
+	"references": [
+		{"path": "../dom"},
+		{"path": "../fetch"},
+		{"path": "../object"}
+	]
+}
