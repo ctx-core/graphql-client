@@ -37,7 +37,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "^12.12.21",
-		"typescript": "^3.7.3"
+		"typescript": "^3.7.4"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
 }
