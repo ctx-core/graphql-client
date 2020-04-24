@@ -36,7 +36,7 @@
 		"@ctx-core/object": "^8.0.8"
 	},
 	"devDependencies": {
-		"@types/node": "^13.13.1",
+		"@types/node": "^13.13.2",
 		"typescript": "^3.8.3"
 	},
 	"gitHead": "d5630ce09e0525a7a78bdeeeda244234a6eb3ac9"
