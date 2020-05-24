@@ -21,6 +21,7 @@ export function _fetch__graphql(http_opts__1:FetchHttpOpts = {}) {
 			body,
 		}, http_opts__1, http_opts__2))
 		if (!response.ok) {
+			console.error(await response.text())
 			throw `Error fetching graphql`
 		}
 		const payload = await response.json()
