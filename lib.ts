@@ -21,8 +21,12 @@ export function _fetch__graphql(http_opts__1:FetchHttpOpts = {}) {
 			body,
 		}, http_opts__1, http_opts__2))
 		if (!response.ok) {
-			console.error(await response.text())
-			throw `Error fetching graphql`
+			if (process.env.NODE_ENV === 'production') {
+				console.error(await response.text())
+				throw `Error fetching graphql`
+			} else {
+				throw (await response.text())
+			}
 		}
 		const payload = await response.json()
 		if (payload.errors) throw payload
