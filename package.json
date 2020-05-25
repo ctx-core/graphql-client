@@ -2,6 +2,7 @@
 	"name": "@ctx-core/graphql-client",
 	"version": "2.2.0",
 	"description": "ctx-core graphql-client",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
