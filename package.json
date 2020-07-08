@@ -2,9 +2,9 @@
 	"name": "@ctx-core/graphql-client",
 	"version": "2.2.16",
 	"description": "ctx-core graphql-client",
-	"main": "lib.js",
-	"module": "lib.js",
-	"types": "lib.ts",
+	"main": "index.js",
+	"module": "index.js",
+	"types": "index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
