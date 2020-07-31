@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "2.2.47",
+	"version": "2.2.48",
 	"description": "ctx-core graphql-client",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -30,10 +30,10 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^6.0.10",
-		"@ctx-core/fetch": "^6.1.167",
-		"@ctx-core/graphql": "^4.1.73",
-		"@ctx-core/object": "^9.0.6"
+		"@ctx-core/dom": "^6.0.11",
+		"@ctx-core/fetch": "^6.1.168",
+		"@ctx-core/graphql": "^4.1.74",
+		"@ctx-core/object": "^9.0.7"
 	},
 	"devDependencies": {
 		"@types/node": "^14.0.27",
