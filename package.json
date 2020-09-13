@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "2.2.82",
+	"version": "2.2.83",
 	"description": "ctx-core graphql-client",
 	"main": "./index.js",
 	"module": "./index.js",
