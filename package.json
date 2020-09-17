@@ -1,43 +1,43 @@
 {
-	"name": "@ctx-core/graphql-client",
-	"version": "2.2.83",
-	"description": "ctx-core graphql-client",
-	"keywords": [
-		"ctx-core",
-		"google"
-	],
-	"homepage": "https://github.com/ctx-core/graphql-client#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/graphql-client/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/graphql-client/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "tsc -b",
-		"exec": "$@",
-		"prepublishOnly": "npm run compile"
-	},
-	"dependencies": {
-		"@ctx-core/dom": "workspace:*",
-		"@ctx-core/fetch": "workspace:*",
-		"@ctx-core/graphql": "workspace:*",
-		"@ctx-core/object": "workspace:*"
-	},
-	"devDependencies": {
-		"@types/node": "^14.10.1",
-		"typescript": "^4.0.2"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"gitHead": "aa1ee499c8204fa2e98114248c2062bba659ec9a"
+  "name": "@ctx-core/graphql-client",
+  "version": "2.2.84",
+  "description": "ctx-core graphql-client",
+  "keywords": [
+    "ctx-core",
+    "google"
+  ],
+  "homepage": "https://github.com/ctx-core/graphql-client#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/graphql-client/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/graphql-client/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "tsc -b",
+    "exec": "$@",
+    "prepublishOnly": "npm run compile"
+  },
+  "dependencies": {
+    "@ctx-core/dom": "workspace:*",
+    "@ctx-core/fetch": "workspace:*",
+    "@ctx-core/graphql": "workspace:*",
+    "@ctx-core/object": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.3",
+    "typescript": "^4.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "aa1ee499c8204fa2e98114248c2062bba659ec9a"
 }
