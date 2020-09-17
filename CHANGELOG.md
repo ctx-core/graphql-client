@@ -1,6 +1,18 @@
 # @ctx-core/graphql-client
 
+## 2.2.85
+
+### Patch Changes
+
+- fix: npm run compile: path to tsc
+- Updated dependencies [undefined]
+  - @ctx-core/dom@6.0.37
+  - @ctx-core/fetch@6.1.205
+  - @ctx-core/graphql@4.1.90
+  - @ctx-core/object@11.0.1
+
 ## 2.2.84
+
 ### Patch Changes
 
 - typescript updates

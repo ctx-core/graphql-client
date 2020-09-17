@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/graphql-client",
-  "version": "2.2.84",
+  "version": "2.2.85",
   "description": "ctx-core graphql-client",
   "keywords": [
     "ctx-core",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },
