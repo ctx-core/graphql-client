@@ -1,5 +1,12 @@
 # @ctx-core/graphql-client
 
+## 3.0.42
+
+### Patch Changes
+
+- @ctx-core/dom@7.0.36
+- @ctx-core/fetch@7.0.42
+
 ## 3.0.41
 
 ### Patch Changes
