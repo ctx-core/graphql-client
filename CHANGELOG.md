@@ -1,5 +1,17 @@
 # @ctx-core/graphql-client
 
+## 3.0.72
+
+### Patch Changes
+
+- @types/node: ^14.14.8 -> ^14.14.9
+- typescript: ^4.0.5 -> ^4.1.2
+- Updated dependencies [undefined]
+  - @ctx-core/dom@7.1.8
+  - @ctx-core/fetch@7.0.72
+  - @ctx-core/graphql@5.0.23
+  - @ctx-core/object@13.0.2
+
 ## 3.0.71
 
 ### Patch Changes
