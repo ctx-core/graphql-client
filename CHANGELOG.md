@@ -1,5 +1,18 @@
 # @ctx-core/graphql-client
 
+## 3.1.11
+
+### Patch Changes
+
+- interface instead of type: FetchHttpHeaders
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.4
+  - @ctx-core/graphql@5.1.6
+  - @ctx-core/dom@7.1.19
+  - @ctx-core/fetch@7.0.88
+
 ## 3.1.10
 
 ### Patch Changes
