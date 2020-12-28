@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 3.2.1
+
+### Patch Changes
+
+- fix: \_graphql_fetch: returned graphql_fetch function has a generic
+
 ## 3.2.0
 
 ### Minor Changes
