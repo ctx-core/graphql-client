@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "3.2.1",
+	"version": "3.2.2",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",

@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 3.2.2
+
+### Patch Changes
+
+- fix: graphql_fetch: return types
+
 ## 3.2.1
 
 ### Patch Changes
