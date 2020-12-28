@@ -1,18 +1,18 @@
 import { fetch } from '@ctx-core/fetch'
 import { assign } from '@ctx-core/object'
 import type { FetchHttpOpts } from './FetchHttpOpts'
-export function _graphql_fetch(in_http_opts = {} as FetchHttpOpts) {
-	return async function fetch__graphql(
+export function _graphql_fetch<O extends unknown = unknown>(in_http_opts = {} as FetchHttpOpts): graphql_fetch_type<O> {
+	return async function graphql_fetch(
 		body:string,
-		http_opts__2:FetchHttpOpts = {},
+		fn_in_http_opts:FetchHttpOpts = {},
 	) {
-		const response = await fetch(http_opts__2.url || in_http_opts.url, assign({
+		const response = await fetch(fn_in_http_opts.url || in_http_opts.url, assign({
 			method: 'POST',
 			headers: assign({
 				'Content-Type': 'application/json',
-			}, in_http_opts.headers, http_opts__2.headers),
+			}, in_http_opts.headers, fn_in_http_opts.headers),
 			body,
-		}, in_http_opts, http_opts__2))
+		}, in_http_opts, fn_in_http_opts))
 		if (!response.ok) {
 			if (process.env.NODE_ENV === 'production') {
 				console.error(await response.text())
@@ -23,7 +23,11 @@ export function _graphql_fetch(in_http_opts = {} as FetchHttpOpts) {
 		}
 		const payload = await response.json()
 		if (payload.errors) throw payload
-		return payload
+		return payload as O
 	}
 }
-export const _fetch__graphql = _graphql_fetch
+export type graphql_fetch_type<O extends unknown = unknown> =
+	(body:string, fn_in_http_opts:FetchHttpOpts) => Promise<O>
+export {
+	_graphql_fetch as _fetch__graphql
+}

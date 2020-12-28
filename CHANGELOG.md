@@ -1,5 +1,18 @@
 # @ctx-core/graphql-client
 
+## 3.2.0
+
+### Minor Changes
+
+- \_graphql_fetch => graphql_fetch_type
+- graphql_fetch=>fetch_graphql
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@7.1.0
+
 ## 3.1.20
 
 ### Patch Changes
