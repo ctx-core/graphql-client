@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "3.2.17",
+	"version": "3.2.18",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -27,8 +27,8 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^7.1.37",
-		"@ctx-core/fetch": "workspace:^7.1.15",
+		"@ctx-core/dom": "workspace:^7.1.38",
+		"@ctx-core/fetch": "workspace:^7.1.16",
 		"@ctx-core/graphql": "workspace:^5.1.21",
 		"@ctx-core/object": "workspace:^16.0.1"
 	},
