@@ -11,9 +11,9 @@ export function graphql_fetch<data_type extends unknown = unknown>(
 			url: _graphql_url(),
 		})
 	}
-	return in_graphql_fetch(body, fn_in_http_opts) as Promise<graphql_fetch_return_type<data_type>>
+	return in_graphql_fetch(body, fn_in_http_opts) as Promise<graphql_fetch_response_type<data_type>>
 }
-export interface graphql_fetch_return_type<data_type extends unknown = unknown> {
+export interface graphql_fetch_response_type<data_type extends unknown = unknown> {
 	data: data_type
 }
 export {

@@ -1,10 +1,16 @@
 # @ctx-core/graphql-client
 
+## 4.0.12
+
+### Patch Changes
+
+- graphql_fetch_response_type instead of graphql_fetch_return_type
+
 ## 4.0.11
 
 ### Patch Changes
 
-- fix: graphql_fetch: graphql_fetch_return_type
+- fix: graphql_fetch: graphql_fetch_response_type
 
 ## 4.0.10
 
