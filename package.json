@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "4.0.12",
+	"version": "4.0.13",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -29,7 +29,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "workspace:^8.1.5",
 		"@ctx-core/fetch": "workspace:^8.0.10",
-		"@ctx-core/graphql": "workspace:^6.0.6",
+		"@ctx-core/graphql": "workspace:^6.0.7",
 		"@ctx-core/object": "workspace:^17.0.2"
 	},
 	"devDependencies": {
