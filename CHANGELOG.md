@@ -1,5 +1,12 @@
 # @ctx-core/graphql-client
 
+## 4.0.22
+
+### Patch Changes
+
+- @types/node: ^14.14.26 -> ^14.14.27
+  - @ctx-core/fetch@8.0.19
+
 ## 4.0.21
 
 ### Patch Changes
