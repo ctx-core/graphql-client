@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 4.0.32
+
+### Patch Changes
+
+- version bump
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.1.18
+  - @ctx-core/fetch@8.0.29
+  - @ctx-core/graphql@6.0.16
+  - @ctx-core/object@17.0.11
+
 ## 4.0.31
 
 ### Patch Changes
