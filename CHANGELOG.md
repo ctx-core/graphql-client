@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 4.0.51
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.13
+  - @ctx-core/fetch@8.0.47
+  - @ctx-core/graphql@6.0.26
+  - @ctx-core/object@17.4.1
+
 ## 4.0.50
 
 ### Patch Changes
