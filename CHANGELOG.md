@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 4.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.4.1
+  - @ctx-core/fetch@8.2.1
+  - @ctx-core/graphql@6.2.1
+  - @ctx-core/object@18.1.1
+
 ## 4.2.0
 
 ### Minor Changes
