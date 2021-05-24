@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "4.1.12",
+	"version": "4.1.13",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -18,7 +18,7 @@
 	"author": "Brian Takita",
 	"main": "./src/index.js",
 	"module": "./src/index.js",
-	"types": "./src/index.ts",
+	"types": "./src/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
@@ -27,10 +27,10 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^8.3.9",
-		"@ctx-core/fetch": "workspace:^8.1.10",
-		"@ctx-core/graphql": "workspace:^6.1.9",
-		"@ctx-core/object": "workspace:^18.0.5"
+		"@ctx-core/dom": "workspace:^8.3.10",
+		"@ctx-core/fetch": "workspace:^8.1.11",
+		"@ctx-core/graphql": "workspace:^6.1.10",
+		"@ctx-core/object": "workspace:^18.0.6"
 	},
 	"devDependencies": {
 		"@types/node": "^15.6.0",
