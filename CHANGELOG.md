@@ -1,5 +1,19 @@
 # @ctx-core/graphql-client
 
+## 4.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.4.0
+  - @ctx-core/fetch@8.2.0
+  - @ctx-core/graphql@6.2.0
+  - @ctx-core/object@18.1.0
+
 ## 4.1.13
 
 ### Patch Changes
