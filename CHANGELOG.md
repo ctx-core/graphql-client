@@ -1,5 +1,19 @@
 # @ctx-core/graphql-client
 
+## 4.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.5.0
+  - @ctx-core/fetch@8.3.0
+  - @ctx-core/graphql@6.3.0
+  - @ctx-core/object@18.2.0
+
 ## 4.2.2
 
 ### Patch Changes
