@@ -6,7 +6,11 @@ export function _graphql_fetch<O1 extends unknown = unknown>(in_http_opts = {} a
 		body:string,
 		fn_in_http_opts:FetchHttpOpts = {},
 	): Promise<O2> {
-		const response = await fetch(fn_in_http_opts.url || in_http_opts.url, assign({
+		const url = fn_in_http_opts.url || in_http_opts.url
+		if (!url) {
+			throw `no url prop`
+		}
+		const response = await fetch(url, assign({
 			method: 'POST',
 			headers: assign({
 				'Content-Type': 'application/json',

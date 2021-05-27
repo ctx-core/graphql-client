@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 4.3.4
+
+### Patch Changes
+
+- fix: compile issue
+
 ## 4.3.3
 
 ### Patch Changes
