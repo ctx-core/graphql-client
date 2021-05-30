@@ -1,7 +1,7 @@
 import { fetch } from '@ctx-core/fetch'
 import { assign } from '@ctx-core/object'
 import type { FetchHttpOpts } from './FetchHttpOpts'
-export function _graphql_fetch<O1 extends unknown = unknown>(in_http_opts = {} as FetchHttpOpts): graphql_fetch_type<O1> {
+export function graphql_fetch_<O1 extends unknown = unknown>(in_http_opts = {} as FetchHttpOpts): graphql_fetch_type<O1> {
 	return async function graphql_fetch<O2 extends unknown = O1>(
 		body:string,
 		fn_in_http_opts:FetchHttpOpts = {},
@@ -33,5 +33,6 @@ export function _graphql_fetch<O1 extends unknown = unknown>(in_http_opts = {} a
 export type graphql_fetch_type<O extends unknown = unknown> =
 	(body:string, fn_in_http_opts:FetchHttpOpts) => Promise<O>
 export {
-	_graphql_fetch as _fetch__graphql
+	graphql_fetch_ as _graphql_fetch,
+	graphql_fetch_ as _fetch__graphql,
 }
