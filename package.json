@@ -27,10 +27,10 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^9.0.0",
+		"@ctx-core/dom": "workspace:^9.0.1",
 		"@ctx-core/fetch": "workspace:^9.0.1",
-		"@ctx-core/graphql": "workspace:^7.0.1",
-		"@ctx-core/object": "workspace:^19.0.0"
+		"@ctx-core/graphql": "workspace:^7.0.2",
+		"@ctx-core/object": "workspace:^19.0.1"
 	},
 	"devDependencies": {
 		"@types/node": "^15.6.1",
