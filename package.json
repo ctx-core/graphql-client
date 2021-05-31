@@ -30,7 +30,7 @@
 		"@ctx-core/dom": "workspace:^9.0.2",
 		"@ctx-core/fetch": "workspace:^9.0.1",
 		"@ctx-core/graphql": "workspace:^7.0.3",
-		"@ctx-core/object": "workspace:^19.0.1"
+		"@ctx-core/object": "workspace:^19.0.2"
 	},
 	"devDependencies": {
 		"@types/node": "^15.6.1",
