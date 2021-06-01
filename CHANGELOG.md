@@ -1,5 +1,12 @@
 # @ctx-core/graphql-client
 
+## 5.1.0
+
+### Minor Changes
+
+- graphql_fetch_type->graphql_fetch_T
+- - graphql_fetch_response_I
+
 ## 5.0.1
 
 ### Patch Changes
