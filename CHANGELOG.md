@@ -1,5 +1,12 @@
 # @ctx-core/graphql-client
 
+## 5.2.0
+
+### Minor Changes
+
+- - graphql_fetch_response_I,graphql_fetch_response_type
+- graphql_fetch_response_T<data_T extends unknown = unknown>
+
 ## 5.1.4
 
 ### Patch Changes
