@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "5.2.1",
+	"version": "5.2.2",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -21,16 +21,16 @@
 	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
+		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^9.0.8",
-		"@ctx-core/fetch": "workspace:^9.0.4",
-		"@ctx-core/graphql": "workspace:^7.0.13",
-		"@ctx-core/object": "workspace:^19.1.1"
+		"@ctx-core/dom": "workspace:^9.0.9",
+		"@ctx-core/fetch": "workspace:^9.0.5",
+		"@ctx-core/graphql": "workspace:^7.0.14",
+		"@ctx-core/object": "workspace:^19.1.2"
 	},
 	"devDependencies": {
 		"@types/node": "^15.12.1",

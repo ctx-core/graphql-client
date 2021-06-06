@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 5.2.2
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.9
+  - @ctx-core/fetch@9.0.5
+  - @ctx-core/graphql@7.0.14
+  - @ctx-core/object@19.1.2
+
 ## 5.2.1
 
 ### Patch Changes
