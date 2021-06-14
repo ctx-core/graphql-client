@@ -1,5 +1,19 @@
 # @ctx-core/graphql-client
 
+## 6.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.0
+  - @ctx-core/fetch@10.0.0
+  - @ctx-core/graphql@8.0.0
+  - @ctx-core/object@20.0.0
+
 ## 5.2.8
 
 ### Patch Changes
