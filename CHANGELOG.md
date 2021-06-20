@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 6.0.11
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.7
+  - @ctx-core/fetch@10.0.11
+  - @ctx-core/graphql@8.0.8
+  - @ctx-core/object@20.0.7
+
 ## 6.0.10
 
 ### Patch Changes
