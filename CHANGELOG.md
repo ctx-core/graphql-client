@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 6.0.8
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.4
+  - @ctx-core/fetch@10.0.8
+  - @ctx-core/graphql@8.0.5
+  - @ctx-core/object@20.0.4
+
 ## 6.0.7
 
 ### Patch Changes
