@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 6.0.9
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.5
+  - @ctx-core/fetch@10.0.9
+  - @ctx-core/graphql@8.0.6
+  - @ctx-core/object@20.0.5
+
 ## 6.0.8
 
 ### Patch Changes
