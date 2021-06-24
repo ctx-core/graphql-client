@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 6.0.15
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.10
+  - @ctx-core/fetch@10.0.14
+  - @ctx-core/graphql@8.0.13
+  - @ctx-core/object@20.1.1
+
 ## 6.0.14
 
 ### Patch Changes
