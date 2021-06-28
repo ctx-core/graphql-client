@@ -29,7 +29,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "workspace:^10.0.15",
 		"@ctx-core/fetch": "workspace:^10.0.20",
-		"@ctx-core/graphql": "workspace:^8.0.18",
+		"@ctx-core/graphql": "workspace:^8.0.19",
 		"@ctx-core/object": "workspace:^20.2.2"
 	},
 	"devDependencies": {
