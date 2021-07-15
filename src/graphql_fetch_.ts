@@ -1,6 +1,6 @@
 import { fetch } from '@ctx-core/fetch'
 import { assign } from '@ctx-core/object'
-import type { FetchHttpOpts } from './FetchHttpOpts'
+import type { FetchHttpOpts } from './FetchHttpOpts.js'
 export function graphql_fetch_<O1 extends unknown = unknown>(
 	in_http_opts = {} as FetchHttpOpts
 ):graphql_fetch_T<O1> {

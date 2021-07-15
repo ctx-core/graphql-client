@@ -1,6 +1,6 @@
-import { graphql_fetch_, graphql_fetch_T } from './graphql_fetch_'
-import { graphql_url_ } from './graphql_url_'
-import type { FetchHttpOpts } from './FetchHttpOpts'
+import { graphql_fetch_, graphql_fetch_T } from './graphql_fetch_.js'
+import { graphql_url_ } from './graphql_url_.js'
+import type { FetchHttpOpts } from './FetchHttpOpts.js'
 let in_graphql_fetch: graphql_fetch_T
 export function graphql_fetch<data_T extends unknown = unknown>(
 	body:string,
