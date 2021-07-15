@@ -1,5 +1,14 @@
 # @ctx-core/graphql-client
 
+## 7.0.4
+
+### Patch Changes
+
+- fix: module imports;types
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.3
+  - @ctx-core/graphql@9.0.3
+
 ## 7.0.3
 
 ### Patch Changes

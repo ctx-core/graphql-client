@@ -1,6 +1,6 @@
 import { has_dom } from '@ctx-core/dom'
 import { graphql_port_txt_ } from './graphql_port_txt_.js'
-export function graphql_url_(host = '127.0.0.1') {
+export function graphql_url_(host = '127.0.0.1'):string {
 	if (has_dom) return '/graphql'
 	const host_port = `${host}${graphql_port_txt_()}`
 	return `http://${host_port}/graphql`
