@@ -1,5 +1,19 @@
 # @ctx-core/graphql-client
 
+## 7.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.0
+  - @ctx-core/fetch@11.0.0
+  - @ctx-core/graphql@9.0.0
+  - @ctx-core/object@21.0.0
+
 ## 6.0.43
 
 ### Patch Changes
