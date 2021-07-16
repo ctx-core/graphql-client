@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 7.0.10
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.8
+  - @ctx-core/fetch@11.0.9
+  - @ctx-core/graphql@9.0.7
+  - @ctx-core/object@21.0.6
+
 ## 7.0.9
 
 ### Patch Changes
