@@ -1,5 +1,27 @@
 # @ctx-core/graphql-client
 
+## 7.0.9
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.7
+  - @ctx-core/fetch@11.0.8
+  - @ctx-core/graphql@9.0.6
+  - @ctx-core/object@21.0.5
+
+## 7.0.8
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.6
+  - @ctx-core/fetch@11.0.7
+  - @ctx-core/graphql@9.0.5
+  - @ctx-core/object@21.0.4
+
 ## 7.0.7
 
 ### Patch Changes
