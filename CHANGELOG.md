@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 7.0.11
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.9
+  - @ctx-core/fetch@11.0.10
+  - @ctx-core/graphql@9.0.8
+  - @ctx-core/object@21.0.7
+
 ## 7.0.10
 
 ### Patch Changes
