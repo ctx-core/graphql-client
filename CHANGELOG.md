@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 7.0.7
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.4
+  - @ctx-core/fetch@11.0.6
+  - @ctx-core/graphql@9.0.4
+  - @ctx-core/object@21.0.3
+
 ## 7.0.6
 
 ### Patch Changes
