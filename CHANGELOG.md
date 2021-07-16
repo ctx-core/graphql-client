@@ -1,5 +1,27 @@
 # @ctx-core/graphql-client
 
+## 7.0.15
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.12
+  - @ctx-core/fetch@11.0.14
+  - @ctx-core/graphql@9.0.11
+  - @ctx-core/object@21.0.10
+
+## 7.0.14
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.11
+  - @ctx-core/fetch@11.0.13
+  - @ctx-core/graphql@9.0.10
+  - @ctx-core/object@21.0.9
+
 ## 7.0.13
 
 ### Patch Changes
