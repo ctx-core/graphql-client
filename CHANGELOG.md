@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 7.0.12
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.10
+  - @ctx-core/fetch@11.0.11
+  - @ctx-core/graphql@9.0.9
+  - @ctx-core/object@21.0.8
+
 ## 7.0.11
 
 ### Patch Changes

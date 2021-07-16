@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "7.0.11",
+	"version": "7.0.12",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -28,15 +28,15 @@
 		"build": "npm run clean && npm run copy-mjs && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
-		"copy-mjs": "cd dist && echo \"require = require('esm')(module)\nmodule.exports = require('./index.js')\" > index.cjs",
+		"copy-mjs": "cd dist && echo \"module.exports = (async () => import('./index.js'))()\" > index.cjs",
 		"exec": "$@",
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.9",
-		"@ctx-core/fetch": "workspace:^11.0.10",
-		"@ctx-core/graphql": "workspace:^9.0.8",
-		"@ctx-core/object": "workspace:^21.0.7",
+		"@ctx-core/dom": "workspace:^11.0.10",
+		"@ctx-core/fetch": "workspace:^11.0.11",
+		"@ctx-core/graphql": "workspace:^9.0.9",
+		"@ctx-core/object": "workspace:^21.0.8",
 		"esm": "^3.2.25"
 	},
 	"devDependencies": {
