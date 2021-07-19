@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "7.0.19",
+	"version": "7.0.20",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -21,9 +21,11 @@
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"exports": {
-		"require": "./dist/index.cjs",
-		"import": "./dist/index.js",
-		"package.json": "./package.json"
+		".": {
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.js"
+		},
+		"./package.json": "./package.json"
 	},
 	"scripts": {
 		"build": "npm run clean && npm run copy-mjs && npm run compile",
@@ -34,10 +36,10 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.14",
+		"@ctx-core/dom": "workspace:^11.0.15",
 		"@ctx-core/fetch": "workspace:^11.0.17",
-		"@ctx-core/graphql": "workspace:^9.0.12",
-		"@ctx-core/object": "workspace:^21.0.11",
+		"@ctx-core/graphql": "workspace:^9.0.13",
+		"@ctx-core/object": "workspace:^21.0.12",
 		"esm": "^3.2.25"
 	},
 	"devDependencies": {

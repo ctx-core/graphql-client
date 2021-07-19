@@ -1,5 +1,15 @@
 # @ctx-core/graphql-client
 
+## 7.0.20
+
+### Patch Changes
+
+- fix: "exports": "./package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.15
+  - @ctx-core/graphql@9.0.13
+  - @ctx-core/object@21.0.12
+
 ## 7.0.19
 
 ### Patch Changes
