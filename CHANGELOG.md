@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.0.51
+
+### Patch Changes
+
+- @types/node: ^16.7.0 -> ^16.7.1
+
 ## 7.0.50
 
 ### Patch Changes
