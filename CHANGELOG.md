@@ -1,5 +1,13 @@
 # @ctx-core/graphql-client
 
+## 7.0.87
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@11.0.79
+
 ## 7.0.86
 
 ### Patch Changes
