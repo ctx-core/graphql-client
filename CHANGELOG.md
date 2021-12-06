@@ -1,5 +1,14 @@
 # @ctx-core/graphql-client
 
+## 7.0.100
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/dom@11.0.39
+  - @ctx-core/fetch@11.0.90
+
 ## 7.0.99
 
 ### Patch Changes
