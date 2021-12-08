@@ -26,7 +26,7 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"@ctx-core/graphql": "workspace:^9.0.29",
+		"@ctx-core/graphql": "workspace:^9.0.30",
 		"build": "npm run compile",
 		"clean": "rm -rf dist",
 		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
