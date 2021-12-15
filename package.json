@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "7.0.106",
+	"version": "7.0.107",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -12,15 +12,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ctx-core/graphql-client/issues"
+		"url": "https://github.com/ctx-core/graphql-client.git"
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
 	"exports": {
 		".": {
-			"types": "./src/index.ts",
-			"import": "./dist/index.js"
+			"import": "./dist/index.js",
+			"types": "./src/index.ts"
 		},
 		"./package.json": "./package.json"
 	},
@@ -33,9 +33,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.41",
-		"@ctx-core/fetch": "workspace:^11.0.94",
-		"@ctx-core/object": "workspace:^22.0.1"
+		"@ctx-core/dom": "workspace:^11.0.42",
+		"@ctx-core/fetch": "workspace:^11.0.95",
+		"@ctx-core/object": "workspace:^22.0.2"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",

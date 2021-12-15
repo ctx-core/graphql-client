@@ -1,5 +1,15 @@
 # @ctx-core/graphql-client
 
+## 7.0.107
+
+### Patch Changes
+
+- fix: package.json: exports
+- Updated dependencies
+  - @ctx-core/dom@11.0.42
+  - @ctx-core/fetch@11.0.95
+  - @ctx-core/object@22.0.2
+
 ## 7.0.106
 
 ### Patch Changes
