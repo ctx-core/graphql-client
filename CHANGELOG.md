@@ -1,5 +1,15 @@
 # @ctx-core/graphql-client
 
+## 7.0.108
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/dom@11.0.43
+  - @ctx-core/fetch@11.0.96
+  - @ctx-core/object@22.0.3
+
 ## 7.0.107
 
 ### Patch Changes
