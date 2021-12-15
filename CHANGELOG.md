@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 7.0.106
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.0.41
+  - @ctx-core/fetch@11.0.94
+  - @ctx-core/object@22.0.1
+
 ## 7.0.105
 
 ### Patch Changes
