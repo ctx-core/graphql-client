@@ -1,5 +1,15 @@
 # @ctx-core/graphql-client
 
+## 7.0.112
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/dom@11.0.47
+  - @ctx-core/fetch@11.0.100
+  - @ctx-core/object@22.0.7
+
 ## 7.0.111
 
 ### Patch Changes
