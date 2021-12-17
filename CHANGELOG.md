@@ -1,5 +1,15 @@
 # @ctx-core/graphql-client
 
+## 7.0.111
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/dom@11.0.46
+  - @ctx-core/fetch@11.0.99
+  - @ctx-core/object@22.0.6
+
 ## 7.0.110
 
 ### Patch Changes
