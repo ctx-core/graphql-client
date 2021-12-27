@@ -36,7 +36,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.48",
+		"@ctx-core/dom": "workspace:^11.0.49",
 		"@ctx-core/fetch": "workspace:^11.0.102",
 		"@ctx-core/object": "workspace:^22.0.8"
 	},
