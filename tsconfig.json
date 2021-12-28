@@ -22,8 +22,8 @@
 			"node_modules/@types"
 		],
 		"rootDir": "src",
-		"outDir": "dist",
-		"declarationDir": "dist",
+		"outDir": "lib",
+		"declarationDir": "lib",
 		"lib": ["dom", "ESNext"],
 		"types": [
 			"node"
@@ -33,7 +33,7 @@
 	},
 	"exclude": [
 		"node_modules",
-		"dist"
+		"lib"
 	],
 	"references": []
 }
