@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 7.0.119
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- @types/node: ^17.0.7 -> ^17.0.8
+- Updated dependencies
+  - @ctx-core/dom@11.1.4
+  - @ctx-core/fetch@11.0.108
+  - @ctx-core/object@22.0.11
+
 ## 7.0.118
 
 ### Patch Changes
