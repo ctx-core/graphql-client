@@ -37,7 +37,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "workspace:^11.1.5",
-		"@ctx-core/fetch": "workspace:^11.0.112",
+		"@ctx-core/fetch": "workspace:^11.0.113",
 		"@ctx-core/object": "workspace:^22.0.12"
 	},
 	"devDependencies": {
