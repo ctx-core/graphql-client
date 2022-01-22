@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.0.124
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 7.0.123
 
 ### Patch Changes
