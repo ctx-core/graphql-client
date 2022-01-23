@@ -1,4 +1,4 @@
-import { fetch } from '@ctx-core/fetch'
+import { safe_fetch as fetch } from '@ctx-core/fetch-undici'
 import { assign } from '@ctx-core/object'
 export function graphql_fetch_(in_http_opts = {}) {
 	return async function graphql_fetch(body, fn_in_http_opts = {}) {
