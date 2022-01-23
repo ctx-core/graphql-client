@@ -1,4 +1,4 @@
-import { safe_fetch as fetch } from '@ctx-core/fetch-undici'
+import { fetch } from '@ctx-core/fetch-undici'
 import { assign } from '@ctx-core/object'
 export function graphql_fetch_(in_http_opts = {}) {
 	return async function graphql_fetch(body, fn_in_http_opts = {}) {
@@ -14,11 +14,12 @@ export function graphql_fetch_(in_http_opts = {}) {
 			body
 		}, in_http_opts, fn_in_http_opts))
 		if (!response.ok) {
+			const error_text = await response.text()
 			if (process.env.NODE_ENV === 'production') {
-				console.error(await response.text())
+				console.error(error_text)
 				throw `Error fetching graphql`
 			} else {
-				throw await response.text()
+				throw error_text
 			}
 		}
 		const payload = await response.json()
