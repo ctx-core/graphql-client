@@ -13,7 +13,11 @@ export function graphql_fetch_(in_http_opts = {}) {
 			}, in_http_opts.headers, fn_in_http_opts.headers),
 			body
 		}, in_http_opts, fn_in_http_opts))
-		if (!response.ok) {
+		if (response.ok) {
+			const payload = await response.json()
+			if (payload.errors) throw payload
+			return payload
+		} else {
 			const error_text = await response.text()
 			if (process.env.NODE_ENV === 'production') {
 				console.error(error_text)
@@ -22,9 +26,6 @@ export function graphql_fetch_(in_http_opts = {}) {
 				throw error_text
 			}
 		}
-		const payload = await response.json()
-		if (payload.errors) throw payload
-		return payload
 	}
 }
 export { graphql_fetch_ as _graphql_fetch, graphql_fetch_ as _fetch__graphql, }
