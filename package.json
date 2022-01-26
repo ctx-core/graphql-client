@@ -36,7 +36,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "workspace:^11.1.5",
 		"@ctx-core/fetch-undici": "workspace:^1.1.0",
-		"@ctx-core/graphql": "workspace:^9.0.55",
+		"@ctx-core/graphql": "workspace:^9.0.56",
 		"@ctx-core/object": "workspace:^22.0.13"
 	},
 	"devDependencies": {
