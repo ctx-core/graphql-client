@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.2.1
+
+### Patch Changes
+
+- graphql_fetch_T: fix: fn_in_http_opts?:FetchHttpOpts: optional
+
 ## 7.2.0
 
 ### Minor Changes
