@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.2.0
+
+### Minor Changes
+
+- graphql*url*: feat: + port argument: defaults to 80
+
 ## 7.1.3
 
 ### Patch Changes
