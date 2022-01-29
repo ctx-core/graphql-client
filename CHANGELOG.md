@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.2.2
+
+### Patch Changes
+
+- graphql*fetch*,graphql_fetch_T: fix: return type: Promise<graphql_fetch_response_T<O>>
+
 ## 7.2.1
 
 ### Patch Changes
