@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "7.2.4",
+	"version": "7.2.5",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
