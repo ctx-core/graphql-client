@@ -34,10 +34,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.1.6",
-		"@ctx-core/fetch-undici": "^1.1.5",
-		"@ctx-core/graphql": "^9.0.57",
-		"@ctx-core/object": "*"
+		"@ctx-core/dom": "workspace:^11.1.6",
+		"@ctx-core/fetch-undici": "workspace:^1.1.5",
+		"@ctx-core/graphql": "workspace:^9.0.57",
+		"@ctx-core/object": "workspace:*"
 	},
 	"devDependencies": {
 		"@types/node": "^17.0.16",
