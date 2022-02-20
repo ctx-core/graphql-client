@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.2.11
+
+### Patch Changes
+
+- graphql*fetch*: use fetch*response_pair* to clear out undici response object
+
 ## 7.2.10
 
 ### Patch Changes
