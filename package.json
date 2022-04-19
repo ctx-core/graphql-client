@@ -32,10 +32,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.1.11",
+		"@ctx-core/dom": "^11.1.12",
 		"@ctx-core/fetch-undici": "^2.1.1",
-		"@ctx-core/graphql": "^9.0.61",
-		"@ctx-core/object": "^22.1.5"
+		"@ctx-core/graphql": "^9.0.62",
+		"@ctx-core/object": "^22.1.6"
 	},
 	"devDependencies": {
 		"@types/node": "^17.0.25",
