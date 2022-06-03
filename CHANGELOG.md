@@ -1,5 +1,13 @@
 # @ctx-core/graphql-client
 
+## 7.2.38
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/fetch-undici@2.1.16
+
 ## 7.2.37
 
 ### Patch Changes
