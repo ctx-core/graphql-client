@@ -43,7 +43,7 @@
 		"check-dts": "^0.6.7",
 		"tsm": "^2.2.1",
 		"typescript": "next",
-		"uvu": "^0.5.3"
+		"uvu": "^0.5.4"
 	},
 	"publishConfig": {
 		"access": "public",
