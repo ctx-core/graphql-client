@@ -33,7 +33,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "^11.1.21",
-		"@ctx-core/fetch-undici": "^2.2.5",
+		"@ctx-core/fetch-undici": "^2.3.0",
 		"@ctx-core/graphql": "^9.0.75",
 		"@ctx-core/object": "^22.2.1"
 	},
