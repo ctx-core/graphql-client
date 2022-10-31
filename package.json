@@ -33,12 +33,12 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "^11.1.28",
-		"@ctx-core/fetch-undici": "^2.3.6",
+		"@ctx-core/fetch-undici": "^2.3.7",
 		"@ctx-core/graphql": "^9.0.84",
 		"@ctx-core/object": "^22.2.8"
 	},
 	"devDependencies": {
-		"@types/node": "^18.11.7",
+		"@types/node": "^18.11.8",
 		"c8": "^7.12.0",
 		"check-dts": "^0.6.7",
 		"tsx": "^3.11.0",
