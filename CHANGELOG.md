@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 7.2.89
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/dom@11.2.25
+  - @ctx-core/fetch-undici@2.3.57
+  - @ctx-core/graphql@9.0.97
+  - @ctx-core/object@24.1.1
+
 ## 7.2.88
 
 ### Patch Changes

@@ -28,7 +28,6 @@
 		"types": [
 			"node"
 		],
-		"importsNotUsedAsValues": "error",
 		"strict": true
 	},
 	"exclude": [
