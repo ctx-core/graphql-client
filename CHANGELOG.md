@@ -1,5 +1,13 @@
 # @ctx-core/graphql-client
 
+## 7.2.106
+
+### Patch Changes
+
+- @ctx-core/graphql: ^9.0.102 -> ^9.0.103
+- Updated dependencies
+  - @ctx-core/dom@11.2.35
+
 ## 7.2.105
 
 ### Patch Changes
