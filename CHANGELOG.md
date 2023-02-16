@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.2.114
+
+### Patch Changes
+
+- @ctx-core/fetch-undici: ^2.3.79 -> ^2.3.80
+
 ## 7.2.113
 
 ### Patch Changes
