@@ -1,5 +1,15 @@
 # @ctx-core/graphql-client
 
+## 7.2.140
+
+### Patch Changes
+
+- @ctx-core/object: ^25.1.0 -> ^25.2.0
+- Updated dependencies
+  - @ctx-core/dom@11.4.16
+  - @ctx-core/fetch-undici@2.3.106
+  - @ctx-core/graphql@9.0.115
+
 ## 7.2.139
 
 ### Patch Changes
