@@ -1,5 +1,17 @@
 # @ctx-core/graphql-client
 
+## 7.3.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- Updated dependencies
+  - @ctx-core/env@17.2.18
+
 ## 7.2.148
 
 ### Patch Changes

@@ -1,5 +1,11 @@
+import { import_meta_env_ } from '@ctx-core/env'
 import { fetch_response_pair_ } from '@ctx-core/fetch-undici'
 import { assign } from '@ctx-core/object'
+/**
+ * @param {import('../_types').FetchHttpOpts}in_http_opts
+ * @returns {import('../graphql_fetch').graphql_fetch_response_T}
+ * @private
+ */
 export function graphql_fetch_(in_http_opts = {}) {
 	return async function graphql_fetch(body, fn_in_http_opts = {}) {
 		const url = fn_in_http_opts.url || in_http_opts.url
@@ -17,7 +23,7 @@ export function graphql_fetch_(in_http_opts = {}) {
 			if (payload.errors) throw payload
 			return payload
 		} else {
-			if (process.env.NODE_ENV === 'production') {
+			if (import_meta_env_().NODE_ENV === 'production') {
 				console.error(payload)
 				throw `Error fetching graphql`
 			} else {
@@ -26,4 +32,7 @@ export function graphql_fetch_(in_http_opts = {}) {
 		}
 	}
 }
-export { graphql_fetch_ as _graphql_fetch, graphql_fetch_ as _fetch__graphql, }
+export {
+	graphql_fetch_ as _graphql_fetch,
+	graphql_fetch_ as _fetch__graphql,
+}
