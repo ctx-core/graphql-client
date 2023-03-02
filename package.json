@@ -39,7 +39,7 @@
 		"@ctx-core/object": "^26.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^18.14.3",
+		"@types/node": "^18.14.4",
 		"c8": "^7.13.0",
 		"check-dts": "^0.7.0",
 		"tsx": "^3.12.3",
