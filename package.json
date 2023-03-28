@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "7.3.55",
+	"version": "7.3.56",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -33,8 +33,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "^14.1.0",
-		"@ctx-core/env": "^17.2.42",
-		"@ctx-core/fetch-undici": "^2.3.168",
+		"@ctx-core/env": "^17.2.43",
+		"@ctx-core/fetch-undici": "^2.3.169",
 		"@ctx-core/graphql": "^9.0.131",
 		"@ctx-core/object": "^27.3.1"
 	},
