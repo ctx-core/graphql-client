@@ -33,10 +33,10 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "^14.1.12",
-		"@ctx-core/env": "^17.2.63",
+		"@ctx-core/env": "^17.2.75",
 		"@ctx-core/fetch-undici": "^2.6.17",
 		"@ctx-core/graphql": "^9.0.139",
-		"@ctx-core/object": "^27.4.4"
+		"@ctx-core/object": "^27.4.16"
 	},
 	"devDependencies": {
 		"@types/node": "^18.15.11",
