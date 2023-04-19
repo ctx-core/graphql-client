@@ -1,5 +1,17 @@
 # @ctx-core/graphql-client
 
+## 7.3.108
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/dom@14.1.31
+  - @ctx-core/env@17.2.83
+  - @ctx-core/fetch-undici@2.6.36
+  - @ctx-core/graphql@9.0.158
+  - @ctx-core/object@27.4.23
+
 ## 7.3.107
 
 ### Patch Changes
