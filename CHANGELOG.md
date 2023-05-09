@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.3.134
+
+### Patch Changes
+
+- @ctx-core/env: ^17.2.90 -> ^17.2.91
+
 ## 7.3.133
 
 ### Patch Changes
