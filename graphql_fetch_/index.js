@@ -2,7 +2,7 @@ import { import_meta_env_ } from '@ctx-core/env'
 import { fetch_response_pair_ } from '@ctx-core/fetch-undici'
 import { assign } from '@ctx-core/object'
 /**
- * @param {import('../_types').FetchHttpOpts}in_http_opts
+ * @param {import('../_types/index.js').FetchHttpOpts}in_http_opts
  * @returns {import('../graphql_fetch').graphql_fetch_response_T}
  * @private
  */

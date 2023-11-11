@@ -3,8 +3,8 @@ import { graphql_url_ } from '../graphql_url_/index.js'
 let in_graphql_fetch
 /**
  * @param {string}body
- * @param {import('../_types').FetchHttpOpts}fn_in_http_opts
- * @returns {Promise<import('./index.d.ts').graphql_fetch_response_T>}
+ * @param {import('../_types/index.js/index.js').FetchHttpOpts}fn_in_http_opts
+ * @returns {Promise<import('./index.d.ts/index.js').graphql_fetch_response_T>}
  */
 export function graphql_fetch(
 	body,

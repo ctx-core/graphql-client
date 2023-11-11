@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "7.3.291",
+	"version": "7.4.0",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,16 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./gql",
+		"./graphql_validation_errors_",
+		"./ValidationError"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -32,11 +39,11 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^15.0.7",
-		"@ctx-core/env": "^17.3.19",
-		"@ctx-core/fetch-undici": "^3.0.52",
-		"@ctx-core/graphql": "^9.0.188",
-		"@ctx-core/object": "^30.0.0"
+		"@ctx-core/dom": "^15.1.0",
+		"@ctx-core/env": "^17.4.0",
+		"@ctx-core/fetch-undici": "^3.1.0",
+		"@ctx-core/graphql": "^9.1.0",
+		"@ctx-core/object": "^30.1.0"
 	},
 	"devDependencies": {
 		"@types/node": "^20.9.0",
@@ -50,6 +57,5 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./src/index.js",
 	"sideEffects": false
 }

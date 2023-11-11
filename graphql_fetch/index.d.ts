@@ -1,4 +1,4 @@
-import type { FetchHttpOpts } from '../_types'
+import type { FetchHttpOpts } from '../_types/index.js'
 export declare function graphql_fetch<data_T extends unknown = unknown>(
 	body:string, fn_in_http_opts?:FetchHttpOpts
 ):Promise<graphql_fetch_response_T<data_T>>

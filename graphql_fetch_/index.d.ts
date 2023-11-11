@@ -1,5 +1,5 @@
-import type { FetchHttpOpts } from '../_types'
-import type { graphql_fetch_response_T } from '../graphql_fetch'
+import type { FetchHttpOpts } from '../_types/index.js'
+import type { graphql_fetch_response_T } from '../graphql_fetch/index.js'
 export declare function graphql_fetch_<
 	O1 extends unknown = unknown
 >(in_http_opts?:FetchHttpOpts):graphql_fetch_T<O1>
