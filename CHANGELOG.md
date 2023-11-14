@@ -1,5 +1,17 @@
 # @ctx-core/graphql-client
 
+## 7.4.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/dom@15.1.2
+  - @ctx-core/env@17.4.2
+  - @ctx-core/fetch-undici@3.1.2
+  - @ctx-core/graphql@9.1.2
+  - @ctx-core/object@30.1.2
+
 ## 7.4.1
 
 ### Patch Changes
