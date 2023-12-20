@@ -1,4 +1,4 @@
-import { import_meta_env_ } from '@ctx-core/env'
+import { import_meta_env_ } from 'ctx-core/env'
 /**
  * @param {number|string}port
  * @returns {string}

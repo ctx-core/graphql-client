@@ -1,5 +1,5 @@
-import { import_meta_env_ } from '@ctx-core/env'
-import { fetch_response_pair_ } from '@ctx-core/fetch-undici'
+import { import_meta_env_ } from 'ctx-core/env'
+import { fetch_response_pair__new } from '@ctx-core/fetch-undici'
 /**
  * @param {import('../_types/index.js').FetchHttpOpts}in_http_opts
  * @returns {import('../graphql_fetch').graphql_fetch_response_T}
@@ -11,7 +11,7 @@ export function graphql_fetch_(in_http_opts = {}) {
 		if (!url) {
 			throw `no url prop`
 		}
-		const [payload, response] = await fetch_response_pair_(url, {
+		const [payload, response] = await fetch_response_pair__new(url, {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
