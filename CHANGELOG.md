@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.4.168
+
+### Patch Changes
+
+- @types/node: ^20.11.4 -> ^20.11.5
+
 ## 7.4.167
 
 ### Patch Changes
