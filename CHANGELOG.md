@@ -1,5 +1,13 @@
 # @ctx-core/graphql-client
 
+## 7.4.192
+
+### Patch Changes
+
+- @types/node: ^20.11.7 -> ^20.11.8
+- Updated dependencies
+  - ctx-core@5.31.2
+
 ## 7.4.191
 
 ### Patch Changes
