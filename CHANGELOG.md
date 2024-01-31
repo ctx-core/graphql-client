@@ -1,5 +1,16 @@
 # @ctx-core/graphql-client
 
+## 7.4.207
+
+### Patch Changes
+
+- patch:
+
+      - ∋ @ctx-core/dom
+      - ∋ @ctx-core/fetch-undici
+      - ∋ @ctx-core/graphql
+      optimize imports
+
 ## 7.4.206
 
 ### Patch Changes
