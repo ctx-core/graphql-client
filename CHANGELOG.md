@@ -1,5 +1,11 @@
 # @ctx-core/graphql-client
 
+## 7.4.239
+
+### Patch Changes
+
+- ctx-core: ^6.5.8 -> ^6.5.9
+
 ## 7.4.238
 
 ### Patch Changes
