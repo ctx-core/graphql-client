@@ -1,5 +1,13 @@
 # @ctx-core/graphql-client
 
+## 7.4.242
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 7.4.241
 
 ### Patch Changes
