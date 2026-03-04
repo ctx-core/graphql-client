@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/graphql-client",
-	"version": "7.4.291",
+	"version": "7.4.292",
 	"description": "ctx-core graphql-client",
 	"keywords": [
 		"ctx-core",
@@ -49,10 +49,10 @@
 		"ctx-core": "*"
 	},
 	"devDependencies": {
-		"@types/node": "^22.19.0",
-		"c8": "^10.1.3",
-		"check-dts": "^0.8.2",
-		"tsx": "^4.20.6",
+		"@types/node": "^25.3.3",
+		"c8": "^11.0.0",
+		"check-dts": "^0.9.0",
+		"tsx": "^4.21.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
